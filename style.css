@@ -1,4 +1,72 @@
 body{font-family: 'Poppins', sans-serif;margin: 0%;}
+header {
+    min-height: 80px;
+    background: #212020;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 998;
+}
+header .container-fluid {
+    max-width: 1850px;
+   
+}
+.right_header_info {
+    width: 100%;
+    float: left;
+    padding: 20px 0 0;
+}
+.right_header_info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+.right_header_info ul li {
+    display: inline;
+    font-size: 16px;
+    margin-left: 45px;
+    color: #eaeaea;
+    font-weight: 400;
+    float: left;
+}
+.right_header_info ul li a {
+    color: #eaeaea;
+    font-weight: 300;
+}
+.button{ text-decoration: none;}
+.button_user a {
+    float: left;
+    min-width: 75px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    position: relative;
+    top: -3px;
+    padding: 0 15px;
+    margin: 0 2px;
+}
+.button_user a {
+    float: left;
+    min-width: 75px;
+    height: 40px;
+    text-align: center;
+    line-height: 38px;
+    position: relative;
+    top: -7px;
+    padding: 0 15px;
+    margin: 0 2px;
+    border: solid #eaeaea 1px;
+}
+.button_user a:hover, .button_user a:focus, .button_user a.active {
+    background: #e3d105;
+    color: #fff;
+    border-color: #e3d105;
+    color: #222;
+}
+
 .flexiable-container{ 
     display:flex;
 }
@@ -11,6 +79,7 @@ h1{font-size: 50px;}
 .first{
     background-image: url(images/Frame\ 58.jpg);
     background-repeat: no-repeat;background-position: left;
+    padding: 100px;
 }
 .half-width{
     width: 50%;padding: 5px;
@@ -47,7 +116,7 @@ h1{font-size: 50px;}
     margin: auto;
 
     }
-.full{
+.sub{
     
     border: 1px solid;
     padding: 10px;
