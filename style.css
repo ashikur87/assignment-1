@@ -1,0 +1,85 @@
+body{font-family: 'Poppins', sans-serif;margin: 0%;}
+.flexiable-container{ 
+    display:flex;
+}
+p{font-size: 25px;}
+.a{color: darkblue;}
+.b{color: red;}
+.c{color: springgreen;}
+.d{color: gold;}
+h1{font-size: 50px;}
+.first{
+    background-image: url(images/Frame\ 58.jpg);
+    background-repeat: no-repeat;background-position: left;
+}
+.half-width{
+    width: 50%;padding: 5px;
+
+}
+.half-width img{
+    width: 100%;
+}
+
+.order{text-decoration: none; background-color: springgreen;padding: 10px 20px; border-radius: 25px;
+    background-image: linear-gradient(springgreen tomato);color: black;font-weight: 700;}
+.middle{
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;background-position: left;
+}
+.center{
+    text-align: center;
+}
+.half-width1{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 40px;
+    border-radius: 10px;
+    
+}
+.pic{border-radius: 25px;
+    border: 1px solid black;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    margin: auto;
+
+    }
+.full{
+    
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 20px yellowgreen inset;
+
+}
+.half-width2{
+    width: 33.33%;
+}
+.bottom {
+    background-color: black;
+       text-align: center;
+       
+       padding: 10px;
+       
+
+   }
+   .bottom a{ 
+    background-color: black;
+       color: wheat;
+       text-decoration: none;
+       margin: 20px;
+       
+   }
+   .bottom p{
+    color: white;
+    margin-top: 20px;
+   }
+   .bottom a:hover{
+    text-decoration: underline;
+    color: tomato;
+   }
+   .foot{
+       color: wheat;
+   }
